@@ -163,7 +163,7 @@ async function initializeBrowserFS() {
 
   fsInitialized = true;
 }
-
+// eslint-disable-next-line no-console
 childHandler.registerFunction('compile', compileSass);
 childHandler.registerFSInitializer(initializeBrowserFS);
 childHandler.emitReady();

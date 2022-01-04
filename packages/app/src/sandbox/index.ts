@@ -15,6 +15,7 @@ import compile, { getCurrentManager } from './compile';
 
 const host = process.env.CODESANDBOX_HOST;
 const withServiceWorker = !process.env.SANDPACK;
+// const withServiceWorker = false
 const debug = _debug('cs:sandbox');
 
 export const SCRIPT_VERSION =
